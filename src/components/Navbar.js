@@ -1,23 +1,23 @@
 const navigation = [
     {
         name: "Home",
-        href: "#"
+        href: "/"
     },
     {
         name: "Directing",
-        href: "#"
+        href: "/directing"
     },
     {
         name: "Makeup",
-        href: "#"
+        href: "/makeup"
     },
     {
         name: "About",
-        href: "#"
+        href: "/about"
     },
     {
         name: "Contact",
-        href: "#"
+        href: "/contact"
     }
 ]
 
