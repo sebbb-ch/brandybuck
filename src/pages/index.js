@@ -1,6 +1,7 @@
 import {Geist, Geist_Mono} from "next/font/google"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -14,13 +15,22 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
     return (
-        <div 
-            className={`${geistSans.className} ${geistMono.className} font-sans bg-white dark:bg-black text-black dark:text-white min-h-screen`}
-        >
-            <main>
-                <Navbar />
+        <div className={`
+            flex flex-col
+            min-h-screen 
+            bg-white dark:bg-black 
+            font-sans text-black dark:text-white
+            ${geistSans.className} ${geistMono.className} 
+        `}>
+            <Navbar />
+
+            <main className="
+                flex-grow items-center justify-center
+            ">
                 <Hero />
             </main>
+
+            <Footer />
         </div>
     );
 }
