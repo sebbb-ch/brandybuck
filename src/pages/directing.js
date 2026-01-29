@@ -1,6 +1,13 @@
+/**
+ * References
+ *
+ * https://joshuaboshell.com/director
+ * https://drive.google.com/drive/u/0/folders/1OalAyz1dGSaiYlSG-EpQkB6Ny8JAu5zX
+ */
 import {Geist, Geist_Mono} from "next/font/google"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+import Navbar   from "../components/Navbar"
+import Footer   from "../components/Footer"
+import Card     from "../components/Card"
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -12,7 +19,7 @@ const geistMono = Geist_Mono({
     subsets: ["latin"]
 });
 
-export default function Home() {
+export default function Directing() {
     return (
         <div className={`
             flex flex-col
@@ -26,6 +33,46 @@ export default function Home() {
             <main className="
                 flex-grow items-center justify-center
             ">
+                
+                <div className="
+                    max-w-2xl
+                ">
+                    <Card 
+                        title="Decrescendo"
+                        subtitle="Feature film"
+                        description="A feature film about a female pianist"
+                        img_src="../../public/directing/decrescendo.jpg"
+                        href="https://youtu.be/SmBw9BXRD40?list=RDSmBw9BXRD40"
+                    />
+                    <Card 
+                        title="Decrescendo"
+                        subtitle="Feature film"
+                        description="A feature film about a female pianist"
+                        img_src="../../public/directing/decrescendo.jpg"
+                        href="https://youtu.be/SmBw9BXRD40?list=RDSmBw9BXRD40"
+                    />
+                    <Card 
+                        title="Decrescendo"
+                        subtitle="Feature film"
+                        description="A feature film about a female pianist"
+                        img_src="../../public/directing/decrescendo.jpg"
+                        href="https://youtu.be/SmBw9BXRD40?list=RDSmBw9BXRD40"
+                    />
+                    <Card 
+                        title="Decrescendo"
+                        subtitle="Feature film"
+                        description="A feature film about a female pianist"
+                        img_src="../../public/directing/decrescendo.jpg"
+                        href="https://youtu.be/SmBw9BXRD40?list=RDSmBw9BXRD40"
+                    />
+                    <Card 
+                        title="Decrescendo"
+                        subtitle="Feature film"
+                        description="A feature film about a female pianist"
+                        img_src="../../public/directing/decrescendo.jpg"
+                        href="https://youtu.be/SmBw9BXRD40?list=RDSmBw9BXRD40"
+                    />
+                </div>
 
             </main>
 

@@ -24,7 +24,7 @@ const navigation = [
 export default function Navbar() {
     return (
         <nav className="navbar
-            fixed top-0 left-0 
+            sticky top-0 left-0 
             w-full z-50 
             bg-gray-900 
         ">
@@ -43,7 +43,7 @@ export default function Navbar() {
                         space-x-6
                     ">
                         {navigation.map((item) => (
-                            <li>
+                            <li key={item.name}>
                                 <a href={item.href}>{item.name}</a>
                             </li>
                         ))}

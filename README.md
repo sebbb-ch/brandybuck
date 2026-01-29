@@ -7,10 +7,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ├── public                # Static assets (images, videos, favicon)
 ├── README.md            
 └── src
-    ├── assets           # (maybe) Custom images/fonts (optional with public/)
-    ├── components       # Reusable React components
-    ├── pages            # Route-based files (Next.js Pages Router)
-    └── styles           # Tailwind and custom CSS
+    └─── api             # Routes
+         └── contact.js
+    ├── assets          # (maybe) Custom images/fonts (optional with public/)
+    ├── components      # Reusable React components
+    ├── pages           # Route-based files (Next.js Pages Router)
+    └── styles          # Tailwind and custom CSS
 ```
 
 ## Getting Started
